@@ -1,5 +1,4 @@
 from nltk.book import *
-from matplotlib import *
 from numpy import *
 
 def lexical_diversity(text): # How many different words are used in a text.
@@ -41,6 +40,8 @@ print('\n')
 
 # fdist.plot(50, cumulative=True)
 
+# len(x) for x in text
+# x.upper() for x in text
+# Consider setting all 'elements' in list to lower/upper to differentiate between 'This' and 'this'
 
-
-
+# TODO: Lesk Algorithm implement WSD? Or other project
